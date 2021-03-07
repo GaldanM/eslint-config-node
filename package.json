@@ -1,6 +1,6 @@
 {
 	"name": "@galdanm/eslint-config-node",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "My ESLint config for a project using Node.js",
 	"repository": {
 		"type": "git",
@@ -14,17 +14,14 @@
 	},
 	"peerDependencies": {
 		"eslint": ">=7",
-		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-node": ">=11",
-		"eslint-plugin-prettier": ">=3",
 		"prettier": ">=2"
 	},
+	"dependencies": {
+		"@galdanm/eslint-config-base": "1.0.1",
+		"eslint-plugin-node": "^11.1.0"
+	},
 	"devDependencies": {
-		"@galdanm/eslint-config-base": "1.0.0",
 		"eslint": "^7.21.0",
-		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-prettier": "^3.3.1",
 		"prettier": "^2.2.1"
 	}
 }

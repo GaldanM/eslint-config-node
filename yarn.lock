@@ -38,10 +38,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@galdanm/eslint-config-base@1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@galdanm/eslint-config-base/1.0.0/2d9aaa6f5f695ec44a1ce975f58e03038f937711263f2b5631bd530ff2ebc56a#a98a62ed6bdf0a4fd683daa11c5fced797752951"
-  integrity sha512-fQ5+md22wJy/I9+2L0nsL/MAgbfdNIWF+Hv7Xd60UZVjjGmYnpxq5ameixqZ8SSZ9L1wZELulTrzDMdJk6xw5A==
+"@galdanm/eslint-config-base@1.0.1":
+  version "1.0.1"
+  resolved "https://npm.pkg.github.com/download/@galdanm/eslint-config-base/1.0.1/df139cb7a903de21cdd67ef720c76cfa597534d677f344cc21f0ae782eb2d24e#03f49bb0a42e0733b3cd96da57ca842458ad1342"
+  integrity sha512-4BULQDrGWJhK3x04joU1IYN/fhuOfwZqLV8k9KCCq7U78iP3Bh3rRw8lNnkBVUsvmnvah3NrCEqhBSDUIyI1Iw==
+  dependencies:
+    eslint-config-prettier "^8.1.0"
+    eslint-plugin-prettier "^3.3.1"
 
 acorn-jsx@^5.3.1:
   version "5.3.1"
@@ -64,9 +67,9 @@ ajv@^6.10.0, ajv@^6.12.4:
     uri-js "^4.2.2"
 
 ajv@^7.0.2:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-7.1.1.tgz#1e6b37a454021fa9941713f38b952fc1c8d32a84"
-  integrity sha512-ga/aqDYnUy/o7vbsRTFhhTsNeXiYb5JWDIcRIeZfwRNCefwjNTVYCGdGSUrEmiu3yDK3vFvNbgJxvrQW4JXrYQ==
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-7.2.0.tgz#54948182f79f2e18c70a501700d78f7a44e6e398"
+  integrity sha512-51Na3IUg3uOACsQ7hzTUCjSzGy8xROySgI8tmNJ+y9JF2hfDS6qkTP7+Ep3htUtSQG1t17QMbe+jZFTlaU4dDQ==
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
