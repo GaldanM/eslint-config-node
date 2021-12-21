@@ -1,27 +1,32 @@
 {
 	"name": "@galdanm/eslint-config-node",
-	"version": "1.0.1",
+	"author": "Galdan MOULINNEUF",
+	"license": "MIT",
+	"private": false,
+	"version": "1.0.2",
 	"description": "My ESLint config for a project using Node.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/galdanm/eslint-config-node"
 	},
-	"author": "Galdan MOULINNEUF",
-	"license": "MIT",
-	"private": false,
-	"engines": {
-		"node": ">=8"
+	"bugs": {
+		"url": "https://github.com/galdanm/eslint-config-node/issues"
 	},
+	"homepage": "https://github.com/galdanm/eslint-config-node#readme",
+	"main": "index.js",
 	"peerDependencies": {
 		"eslint": ">=7",
 		"prettier": ">=2"
 	},
 	"dependencies": {
-		"@galdanm/eslint-config-base": "1.0.1",
+		"@galdanm/eslint-config-base": "1.0.2",
 		"eslint-plugin-node": "^11.1.0"
 	},
 	"devDependencies": {
-		"eslint": "^7.21.0",
-		"prettier": "^2.2.1"
+		"eslint": "^8.5.0",
+		"prettier": "^2.5.1"
+	},
+	"engines": {
+		"node": ">=12"
 	}
 }
